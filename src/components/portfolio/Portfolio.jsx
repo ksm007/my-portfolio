@@ -11,21 +11,22 @@ const data = [{
   title: 'TO DO Application',
   github: 'https://github.com',
   demo: 'https://angulartodo-ecdd5.web.app/login'
-},
-{
-  id: 2,
-  image: IMG1,
-  title: 'TO DO Application',
-  github: 'https://github.com',
-  demo: 'https://angulartodo-ecdd5.web.app/login'
-},
-{
-  id: 3,
-  image: IMG1,
-  title: 'TO DO Application',
-  github: 'https://github.com',
-  demo: 'https://angulartodo-ecdd5.web.app/login'
 }
+// ,
+// {
+//   id: 2,
+//   image: IMG1,
+//   title: 'TO DO Application',
+//   github: 'https://github.com',
+//   demo: 'https://angulartodo-ecdd5.web.app/login'
+// },
+// {
+//   id: 3,
+//   image: IMG1,
+//   title: 'TO DO Application',
+//   github: 'https://github.com',
+//   demo: 'https://angulartodo-ecdd5.web.app/login'
+// }
 ]
 const Portfolio = () => {
   return (

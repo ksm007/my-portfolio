@@ -51,6 +51,11 @@
     border-color: var(--color-primary--variant);
 }
 
+
+.company__name{
+    color: var(--color-primary);
+}
+
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;

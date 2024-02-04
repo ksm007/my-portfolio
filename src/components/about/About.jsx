@@ -21,17 +21,33 @@ const About = () => {
             <article className="about__card">
               <BsFillAwardFill className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5+ years</small>
+              <small>1.5+ years as Full Stack Developer</small>
+              <br />
+              <h6 className="company__name">Boeing India Private Limited</h6>
             </article>
-
+            <article className="about__card">
+              <BsFillAwardFill className="about__icon" />
+              <h5>Experience</h5>
+              <small>6 Months as Research Intern</small>
+              <br />
+              <h6 className="company__name">Indian Institute of Science</h6>
+            </article>
             <article className="about__card">
               <VscLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>15+ Completed Projects</small>
+              <small>5+ Completed Projects</small>
             </article>
           </div>
 
-          <p> have to fill it</p>
+          <p>
+            {" "}
+            Results-driven professional with 1.5 years of valuable experience in
+            Information Technology. Proven ability to work on complex tasks,
+            combined with a strong academic foundation, demonstrates dedication
+            to personal and professional development. Eager to leverage my
+            skills and knowledge in a rigorous academic environment to
+            contribute effectively to the program and advance my career goals.
+          </p>
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk
