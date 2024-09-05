@@ -41,7 +41,7 @@ const About = () => {
 
           <p>
             {" "}
-            Results-driven professional with 1.5 years of valuable experience in
+            Graduate student in Computer science with 2 years of valuable experience in
             Information Technology. Proven ability to work on complex tasks,
             combined with a strong academic foundation, demonstrates dedication
             to personal and professional development. Eager to leverage my
