@@ -3,8 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     width: 100%;
+    padding-left: 1rem;
 }
-
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.3rem;

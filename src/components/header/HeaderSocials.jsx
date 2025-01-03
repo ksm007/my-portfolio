@@ -6,10 +6,10 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a href="https://www.linkedin.com/in/kartik-marathe-360013168/"
-        target="_blank">
+        target="_blank" rel="noopener noreferrer">
         <SiLinkedin />
       </a>
-      <a href="https://github.com/ksm007" target="_blank">
+      <a href="https://github.com/ksm007" target="_blank" rel="noopener noreferrer">
         <RxGithubLogo />
       </a>
     </div>

@@ -1,7 +1,7 @@
 header {
   height: 100vh;
   padding-top: 7rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header__container {
@@ -59,6 +59,7 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
+    padding-bottom: 50rem;
   }
 }
 

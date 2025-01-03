@@ -11,15 +11,19 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    /* align-items: center; */
 }
 
 
 
 .about__me-image {
+    scale: 0.98;
     border-radius: 3rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    object-fit: contain;
+    /* align-items: center; */
 }
 
 .about__me-image:hover {
@@ -85,7 +89,7 @@
     }
 
     .about__me {
-        width: 40%;
+        width: 60%;
         margin: 10rem auto 12rem;
     }
 
@@ -93,15 +97,21 @@
         margin: 1rem 0 1.5rem;
     }
 
+    .about__me-image{
+        scale: 0.87;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
 
     .about__me {
-        width: 65%;
+        width: 100%;
         margin: 10rem auto 12rem;
     }
-
+    .about__me-image{
+        scale: 0.73;
+    }
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
