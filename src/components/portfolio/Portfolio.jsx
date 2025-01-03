@@ -26,7 +26,7 @@ const data = [
     content: `A feature-rich Spotify clone integrated with a real-time chat functionality. 
       Users can browse music, create playlists, and communicate with other users through the chat system.`,
   },
-  {
+  { 
     id: 3,
     image: DrawingApp,
     title: "Smart Drawing Application",
