@@ -44,7 +44,14 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
+.details-dialog {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url("../../assets/bg-texture.png");
+    border-radius: 5rem;
+}
 @media screen and (max-width: 1024px) {
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
