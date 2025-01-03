@@ -31,7 +31,7 @@ const data = [
     image: DrawingApp,
     title: "Smart Drawing Application",
     github: "https://github.com/ksm007/draawingApp",
-    demo: "https://angulartodo-ecdd5.web.app/login",
+    demo: "https://google.com",
     content: `A drawing application that allows users to draw and find solutions to their problems. This is implemented using Gemini API with image processing. The user can draw on the canvas and the result is displayed in unique format that is easy to read. This can solve any problem from math to trigonometry to physics and also give explaination to any abstract concept.`,
   },
 ];
